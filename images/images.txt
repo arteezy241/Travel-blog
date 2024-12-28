@@ -1,1 +1,2 @@
-
+use the images inside this folder 
+to access them in the website.
