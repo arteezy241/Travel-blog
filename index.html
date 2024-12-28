@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="images/travel-svgrepo-com.svg" alt="logo"> 
+        </div>
+        <div class="nav-brand">Travel Blog</div>
+       
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Explore the World</h1>
+        <p>Discover amazing destinations and travel experiences</p>
+    </header>
+
+    <main class="container">
+        <section class="destinations">
+            <article class="destination-card">
+                <img src="images/paris1.jpg" alt="Paris">
+                <div class="card-content">
+                    <h2>Paris, France</h2>
+                    <p>Experience the city of love with its iconic landmarks, rich history, and exquisite cuisine.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </article>
+            <div class="popup-overlay" id="popup-overlay-1">
+                <div class="popup-content">
+                    <button class="close-btn" id="close-btn-1">X</button>
+                    <h2>Paris, France</h2>
+                    <img src="images/paris1.jpg" alt="Eiffel Tower">
+                    <img src="images/paris2.jpg" alt="Louvre Museum">
+                    <p>Explore the Eiffel Tower, the Louvre, and more! Enjoy a cultural journey.</p>
+                </div>
+            </div>
+
+            <article class="destination-card">
+                <img src="images/kyoto.jpg" alt="Kyoto">
+                <div class="card-content">
+                    <h2>Kyoto, Japan</h2>
+                    <p>Immerse yourself in Japanese culture with ancient temples, traditional gardens, and serene landscapes.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </article>
+            <div class="popup-overlay" id="popup-overlay-2">
+                <div class="popup-content">
+                    <button class="close-btn" id="close-btn-2">X</button>
+                    <h2>Kyoto, Japan</h2>
+                    <img src="images/kyoto1.jpg" alt="streets">
+                    <img src="images/kyoto2.jpg" alt="Arashiyama Bamboo Forest">
+                    <p>Kyoto: Japan's ancient heart. Explore serene temples, exquisite gardens, and traditional geisha districts in this captivating city, a living testament to Japan's rich cultural heritage.</p>
+                </div>
+            </div>
+
+            <article class="destination-card">
+                <img src="images/Tokyo.jpg" alt="tokyo">
+                <div class="card-content">
+                    <h2>Tokyo, Japan</h2>
+                    <p>Tokyo: A vibrant metropolis where ancient traditions meet futuristic innovation. Explore neon-lit skyscrapers, serene temples, and bustling markets in this dynamic city that never sleeps.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </article>
+            <div class="popup-overlay" id="popup-overlay-3">
+                <div class="popup-content">
+                    <button class="close-btn" id="close-btn-3">X</button>
+                    <h2>Tokyo, Japan</h2>
+                    <img src="images/tokyo1.jpg" alt="buildings">
+                    <img src="images/tokyo2.jpg" alt="aKIHabara">
+                    <p>Tokyo, Japan's bustling capital, is a global hub of culture, fashion, and technology. Explore diverse neighborhoods, from the trendy streets of Shibuya and Harajuku to the historic district of Asakusa. Discover world-class museums, Michelin-starred restaurants, and unique shopping experiences.</p>
+                </div>
+            </div>
+
+            <article class="destination-card">
+                <img src="/images/sapporo.jpg" alt="sapporo">
+                <div class="card-content">
+                    <h2>Sapporo, Japan</h2>
+                    <p>Sapporo: A perfect blend of urban excitement and natural beauty. Discover the charm of Hokkaido's largest city.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </article>
+            <div class="popup-overlay" id="popup-overlay-4">
+                <div class="popup-content">
+                    <button class="close-btn" id="close-btn-4">X</button>
+                    <h2>Sapporo, Japan</h2>
+                    <img src="images/sapporo1.jpg" alt="sapporo2">
+                    <img src="images/sapporo2.jpg" alt="sapporo1">
+                    <p>Sapporo, the capital of Hokkaido, is a modern city surrounded by stunning natural beauty. Explore Odori Park, visit the Sapporo Beer Museum, and venture out to nearby ski resorts and national parks. </p>
+                    <p>Experience the changing seasons in Sapporo. From the vibrant Sapporo Snow Festival in winter to the colorful foliage in autumn, Sapporo offers unique experiences year-round.</p>
+                </div>
+            </div>
+
+            <article class="destination-card">
+                <img src="images/okinawa.jpg" alt="okinawa">
+                <div class="card-content">
+                    <h2>Okinawa, Japan</h2>
+                    <p>Okinawa: Japan's tropical paradise. Discover pristine beaches, turquoise waters, and vibrant coral reefs in this island getaway.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </article>
+            <div class="popup-overlay" id="popup-overlay-5">
+                <div class="popup-content">
+                    <button class="close-btn" id="close-btn-5">X</button>
+                    <h2>Okinawa, Japan</h2>
+                    <img src="images/okinawa1.jpg" alt="beach">
+                    <img src="images/okinawa2.jpg" alt="bc">
+                    <p>Experience a unique blend of Japanese and Ryukyuan culture in Okinawa. Explore ancient castles, enjoy traditional music and dance, and discover the islands' fascinating history.</p>
+                    <p>From snorkeling and diving to hiking and island hopping, Okinawa offers a wealth of outdoor adventures. Explore stunning natural landscapes and discover hidden gems.</p>
+                </div>
+            </div>
+
+            <article class="destination-card">
+                <img src="images/swiss.jpg" loading="lazy alt="swss">
+                <div class="card-content">
+                    <h2>Switzerland</h2>
+                    <p>Switzerland: A land of breathtaking alpine scenery. Discover majestic mountains, pristine lakes, charming villages, and world-class hiking trails.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </article>
+            <div class="popup-overlay" id="popup-overlay-6">
+                <div class="popup-content">
+                    <button class="close-btn" id="close-btn-6">X</button>
+                    <h2>Switzerland</h2>
+                    <img src="images/swiss1.jpg" loading="lazy" alt="swswss">
+                    <img src="images/swiss2.jpg" loading="lazy alt="sadfsf">
+                    <p>Discover the rich culture and history of Switzerland. Explore medieval castles, charming towns, and vibrant cities steeped in tradition.</p>
+                </div>
+            </div>
+
+            <article class="destination-card">
+                <img src="images/rome.jpg" loading="lazy alt="italy">
+                <div class="card-content">
+                    <h2>Rome, Italy</h2>
+                    <p>Rome: The Eternal City. Explore ancient ruins like the Colosseum and Roman Forum, and walk in the footsteps of emperors and gladiators.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </article>
+            <div class="popup-overlay" id="popup-overlay-7">
+                <div class="popup-content">
+                    <button class="close-btn" id="close-btn-7">X</button>
+                    <h2>Rome, Italy</h2>
+                    <img src="images/rome1.jpg" loading="lazy alt="art">
+                    <img src="images/rome2.jpg" loading="lazy alt="colloseum">
+                    <p>Rome, the capital of Italy, is a city steeped in history, art, and culture. Explore iconic landmarks like the Trevi Fountain and the Vatican City, and discover hidden gems in charming neighborhoods.</p>
+                </div>
+            </div>
+            
+            <article class="destination-card">
+                <img src="images/venice.jpg"loading="lazy alt="venice">
+                <div class="card-content">
+                    <h2>Venice, Italy</h2>
+                    <p>Venice: The Floating City. Explore a magical world of canals, gondolas, and stunning architecture in this unique Italian gem.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </article>
+            <div class="popup-overlay" id="popup-overlay-8">
+                <div class="popup-content">
+                    <button class="close-btn" id="close-btn-8">X</button>
+                    <h2>Venice, Italy</h2>
+                    <img src="images/venice1.jpg" loading="lazy alt="boat">
+                    <img src="images/venice2.jpg" loading="lazy alt="more-boat">
+                    <p>Venice, a city built on water, is a truly unforgettable destination. Explore iconic landmarks like St. Mark's Square and the Rialto Bridge, and get lost in the labyrinth of canals and bridges. 1 </p>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2024 Travel Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
