@@ -20,7 +20,8 @@ View Live Demo <!-- Add your deployed website link here -->
 
 🖥️ Screenshots
 Show Image [Screenshot 2024-12-28 144109](https://github.com/user-attachments/assets/4b334b42-ef18-427c-8f6e-51cd845c6f4d)
-s -->
+
+
 🚀 Getting Started
 Prerequisites
 
@@ -39,6 +40,8 @@ bashCopycd travel-blog
 
 Open index.html in your browser to view the website
 
+
+
 📁 Project Structure
 Copytravel-blog/
 │
@@ -56,6 +59,7 @@ Use the contact form to send messages
 Check out the author's information on the About page
 Connect through social media links
 
+
 🎨 Customization
 Adding New Destinations
 
@@ -70,6 +74,7 @@ Edit styles.css to change colors, layouts, and animations
 Customize the background images in the hero sections
 Modify the card hover effects and transitions
 
+
 ⭐ Future Enhancements
 
  Blog post functionality
@@ -79,14 +84,17 @@ Modify the card hover effects and transitions
  Interactive map integration
  Dark/Light mode toggle
 
+
 👨‍💻 Author
 Mhico A. Sarria
 
 First Year Information Technology Student
 GitHub Profile (https://github.com/arteezy241)
 
+
 📄 License
 This project is open source and available under the MIT License.
+
 
 🙏 Acknowledgments
 
